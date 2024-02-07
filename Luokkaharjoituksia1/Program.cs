@@ -48,25 +48,43 @@ namespace Luokkaharjoituksia1
             Console.WriteLine("Voi, lemmikit ne on elämän suola");
         }
     }
+    
+    class CatOwner : Hooman
+    {
+        public new void SayOpinion()
+        { Console.WriteLine("Kissat ovat itsenäisiä ja pitävät hiiret loitolla");
+        }
+    }
+
+    class DogOwner : Hooman
+    
+    { 
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
+ 
+            
             // Create (instantiate) a hooman object from Hooman class
             Hooman owner = new Hooman("Ossi Omistaja", 35, "isäntä");
 
             // Call the SayOpinion method
             owner.SayOpinion();
 
-            // Keep the window opent until enter pressed
-
+            // Save owners name property to a variable
             string who = owner.name;
 
+            // Test it by echoing it to a console
             Console.WriteLine("totesi " + who);
 
+           // Create a new actowner object
+            CatOwner catOwner = new CatOwner();
+
+            catOwner.SayOpinion();
+
+            // Keep the window opent until enter pressed
             Console.ReadLine();
-
-
         }
     }
 }
