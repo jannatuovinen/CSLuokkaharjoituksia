@@ -30,13 +30,12 @@ class CatOwner : Hooman
     }
 }
 
+Tehtävä1
+Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
 
-
-
-
-
-
-
+// Create a new dog owner and call SayOpinion method
+DogOwner dogOwner = new DogOwner();
+dogOwner.SayOpinion();
 
 ```
 
