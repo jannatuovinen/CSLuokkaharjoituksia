@@ -55,9 +55,11 @@ class DogOwner : Hooman
 
 Luodaan aliluokasta uusi olio ja testataan ominaisuutta
 
+```csharp
 // Create a new dog owner and call SayOpinion method
 DogOwner dogOwner = new DogOwner();
 dogOwner.SayOpinion();
+```
 
 Perinteisesti metodin ylikirjoittaminen aliluokassa on määritelty käyttämällä komentoja virtualja override:
 
