@@ -53,4 +53,6 @@ Sovelluksen avulla kerätään tietoa tietoteknisistä laitteista. Kaikille lait
 3. Takuuaika kuukausina (int)
 
 Kiinnostuksen kohteena ovat tietokoneet, puhelimet ja tabletit. Rakenna näille luokkamääräykset ja periytä yhteiset ominaisuudet
-yliluokasta. Muista kommentoida koodia. Mieti mitä metodeja tarvittaisiin esim. jäljellä olevan takuuajan selvittämiseksi.
+yliluokasta. Muista kommentoida koodia. Mieti mitä metodeja tarvittaisiin esim. jäljellä olevan takuuajan selvittämiseksi. Mieti mitä eroja tietokoneella ja muilla laitetyypeillä on. Tee tietokoneille, puhelimille ja tableteille omat luokat ja mieti, mitä kenttiä aliluokissa pitäisi olla.
+
+Tee tätä tehtävää varten oma Github-repositorio _Laiterekisteri_. Ota se käyttöön Visual Studiossa, jotta voit versioida kirjoittamaasi
