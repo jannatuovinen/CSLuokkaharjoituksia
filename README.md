@@ -17,8 +17,11 @@ class Hooman
     // No need to define, will be created automatically
     public Hooman()
     {
-
+   
     }
+
+    // Method to say something
+public void SayOpinion()
 }
 
 // Sub/Deriver/Child class inhertis Hooman class
@@ -30,16 +33,14 @@ class CatOwner : Hooman
     }
 }
 
+
+
 ## Tehtävä 1
 Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
 
 // Create a new dog owner and call SayOpinion method
 DogOwner dogOwner = new DogOwner();
 dogOwner.SayOpinion();
-
-```
-
-Perinteisesti metodin ylikirjoittaminen aliluokassa on määritelty käyttämällä komentoja `virtual`ja `override`:
 
 ## Tehtävä 2
 Tee yliluokka `Pet` ja sille aliluokka `Hare`. Määrittele metodi `Eats`, joka tulostaa ruudulle eläimen ruokavalion. `Pet` -luokassa tyyliin "Syö ruokaa" ja aliluokassa "Syö porkkanoita". Käytä perinteistä määrittelyä virtuaaliseksi metodiksi ja ylikirjoitettavaksi metodiksi.
