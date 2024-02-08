@@ -30,7 +30,7 @@ class CatOwner : Hooman
     }
 }
 
-Tehtävä1
+##Tehtävä1
 Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
 
 // Create a new dog owner and call SayOpinion method
@@ -39,7 +39,7 @@ dogOwner.SayOpinion();
 
 ```
 
-Perinteisesti metodin ylikirjoittaminen aliluokassa on määritelty käyttämällä komentoja `virtual`ja ´override`:
+Perinteisesti metodin ylikirjoittaminen aliluokassa on määritelty käyttämällä komentoja `virtual`ja `override`:
 
 ## Tehtävä 2
 Tee yliluokka `Pet` ja sille aliluokka `Hare`. Määrittele metodi Èats`, joka tulostaa ruudulle eläimen ruokavalion. `Pet`-luokassa tyyliin "Syä ruokaa" ja aliluokassa "Syö porkkanoita". Käytä perinteistä määrittelyä virtuaaliseksi metodiksi ja ylikirjoitettavaksi metodiksi.
