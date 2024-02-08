@@ -33,7 +33,7 @@ class CatOwner : Hooman
     }
 }
 
-
+```
 
 ## Tehtävä 1
 Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
