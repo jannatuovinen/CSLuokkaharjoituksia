@@ -42,6 +42,7 @@ class CatOwner : Hooman
 ## Tehtävä 1
 Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
 
+```csharp
 class DogOwner : Hooman
 
 {
@@ -50,6 +51,7 @@ class DogOwner : Hooman
         Console.WriteLine("Koira on uskollinen ja luotettava kumppani, ihmisen paras ystävä");
     }
 }
+```
 
 Luodaan aliluokasta uusi olio ja testataan ominaisuutta
 
